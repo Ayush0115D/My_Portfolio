@@ -3,7 +3,7 @@ import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../sections/constants";
-import HeroExperience from "../components//hero_models/HeroExperience";
+import HeroExperience from "../components/models/hero_models/HeroExperience";
 
 const Hero = () => {
   useGSAP(() => {

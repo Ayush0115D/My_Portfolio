@@ -98,6 +98,10 @@ const techStackImgs = [
     name: "Java Developer",
     imgPath: "/images/logos/python.svg",
   },
+  {
+    name: "React Developer",
+    imgPath: "/images/logos/python.svg",
+  }
 ];
 
 const techStackIcons = [
