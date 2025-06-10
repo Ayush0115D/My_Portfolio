@@ -1,11 +1,9 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 import { expCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
-
 gsap.registerPlugin(ScrollTrigger);
 
 const Experience = () => {
@@ -35,7 +33,6 @@ const Experience = () => {
         },
       });
     });
-
     // Animate the timeline height as the user scrolls
     // from the top of the timeline to 70% down the screen
     // The timeline height should scale down from 1 to 0
@@ -149,5 +146,4 @@ const Experience = () => {
     </section>
   );
 };
-
 export default Experience;
