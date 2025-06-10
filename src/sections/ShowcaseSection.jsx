@@ -2,14 +2,12 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-
 gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
   const sectionRef = useRef(null);
-  const rydeRef = useRef(null);
-  const libraryRef = useRef(null);
-  const ycDirectoryRef = useRef(null);
+  const interviewRef = useRef(null);
+
 
   useGSAP(() => {
     // Animation for the main section
@@ -20,7 +18,7 @@ const AppShowcase = () => {
     );
 
     // Animations for each app showcase
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [interviewRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -47,7 +45,7 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          <div ref={interviewRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <img src="/images/project.png" alt="Interview Website" />
             </div>

@@ -13,7 +13,6 @@ const NavBar = () => {
       const isScrolled = window.scrollY > 10;
       setScrolled(isScrolled);
     };
-
     // add the event listener to the window
     window.addEventListener("scroll", handleScroll);
 
