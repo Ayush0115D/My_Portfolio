@@ -35,7 +35,6 @@ const Experience = () => {
         },
       });
     });
-
     // Animate the timeline height as the user scrolls
     // from the top of the timeline to 70% down the screen
     // The timeline height should scale down from 1 to 0
@@ -106,7 +105,7 @@ const Experience = () => {
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
                     <div>
-                      <img src={card.imgPath} alt="exp-img" />
+                      {/* <img src={card.imgPath} alt="exp-img" /> */}
                     </div>
                   </GlowCard>
                 </div>

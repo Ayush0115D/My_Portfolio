@@ -130,7 +130,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Ayush brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Developed a interview platform where u can practice for interviews with the help of vapi real ai voice agent.With the help of Node.js and Tailwind CSS, i build a responsive and optimized website,along with firebase as a database",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Web Developer",
@@ -142,7 +142,7 @@ const expCards = [
     ],
   },
   {
-    review: "Ayush contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Solved different questions on core java and dsa for enhancing problem solving skills.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "JAVA Developer",
@@ -153,7 +153,7 @@ const expCards = [
     ],
   },
   {
-    review: "Ayush work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Made a optimized and responsive porflio website with the help of React and Tailwind CSS.With the help of three.js i have made 3d models for my website and For better animations i used GSAP too look website more attractive and responsive",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "Frontend Developer",
@@ -233,10 +233,10 @@ const socialImgs = [
     url:"https://github.com/Ayush0115D",
     imgPath: "/images/github.svg",
   },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
+  // {
+  //   name: "x",
+  //   imgPath: "/images/x.png",
+  // },
   {
     name: "linkedin",
     url:"https://www.linkedin.com/in/ayushdhakre/",

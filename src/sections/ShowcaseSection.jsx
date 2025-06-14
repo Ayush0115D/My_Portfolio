@@ -42,8 +42,14 @@ const AppShowcase = () => {
   }, []);
 
   return (
+    
     <div id="work" ref={sectionRef} className="app-showcase">
-      <div className="w-full">
+      <div className="w-full flex-col items-center">
+  {/* Title above the card */}
+  <p className="mb-4  text-cyan-50 text-lg font-semibold font-serif ">MY PROJECT</p>
+
+  {/* Project Card */}
+  <div className="w-full max-w-xl"></div>
         <div className="showcaselayout">
           <div ref={interviewRef} className="first-project-wrapper">
             <div className="image-wrapper">
@@ -53,7 +59,7 @@ const AppShowcase = () => {
               <h2>
                 A interview website with ai voice agent using node.js
               </h2>
-              <p className="text-white-50 md:text-xl">
+              <p className="text-cyan-50 md:text-xl">
                 
               </p>
             </div>

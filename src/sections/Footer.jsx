@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center">
-          <button>ABOUT ME</button>
+          <button></button>
         </div>
         
         <div className="socials">
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Ayush Dhakre. All rights reserved.
+            {/* © {new Date().getFullYear()} Ayush Dhakre. All rights reserved. */}
           </p>
         </div>
       </div>
