@@ -132,7 +132,7 @@ const expCards = [
   {
     review: "Developed a interview platform where u can practice for interviews with the help of vapi real ai voice agent.With the help of Node.js and Tailwind CSS, i build a responsive and optimized website,along with firebase as a database",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/web.svg",
     title: "Web Developer",
     date: "June 2024 - Present",
     responsibilities: [
@@ -144,7 +144,7 @@ const expCards = [
   {
     review: "Solved different questions on core java and dsa for enhancing problem solving skills.",
     imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    logoPath: "/images/Java.png",
     title: "JAVA Developer",
     date: "October 2023 - Present",
     responsibilities: [
@@ -155,7 +155,7 @@ const expCards = [
   {
     review: "Made a optimized and responsive porflio website with the help of React and Tailwind CSS.With the help of three.js i have made 3d models for my website and For better animations i used GSAP too look website more attractive and responsive",
     imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    logoPath: "/images/react.png",
     title: "Frontend Developer",
     date: " November 2023- Present",
     responsibilities: [
