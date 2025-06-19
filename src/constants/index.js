@@ -197,11 +197,11 @@ const certifications = [
     description:"The Fundamentals of Web Development course by Simplilearn teaches how to build websites using html css and javascript It covers basic web design responsive layouts and simple interactive features It is meant for beginners who want to start creating web pages and applications"
   },
   {
-    name: "",
-   
+    name: "My Resume",
+    link: "/Resume.pdf",
   },
   {
-    name: "",
+    
     
   },
   {
