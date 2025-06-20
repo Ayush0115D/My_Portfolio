@@ -1,7 +1,7 @@
 import { certifications } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
-
+import { Link } from 'react-router-dom';
 const Certifications = () => {
   return (
     <section id="certifications" className="flex-center section-padding">
@@ -26,18 +26,11 @@ const Certifications = () => {
                   )}
                    {/* 👇 Only show for "My Resume" */}
       {certification.name === "My Resume" && certification.link && (
-<button
-    onClick={() => {
-      const link = document.createElement("a");
-      link.href = "/Resume.pdf";
-      link.setAttribute("download", "Resume.pdf");
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    }}
+  <a
+    href="/Resume.pdf"
+    download="Ayush_Dhakre_Resume.pdf"
     className="inline-flex items-center gap-2 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700 transition w-fit mt-4"
   >
-    {/* Inline SVG download icon */}
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -52,10 +45,10 @@ const Certifications = () => {
         d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
       />
     </svg>
-    Download Resume 
-  </button>
-)}
-                </div>
+    Download Resume
+     </a>
+     )}
+              </div>
               </div>
             </GlowCard>
           ))}
@@ -64,4 +57,5 @@ const Certifications = () => {
     </section>
   );
 };
+
 export default Certifications;
