@@ -199,14 +199,15 @@ const certifications = [
   {
     name: "My Resume",
     link: "/Resume.pdf",
-  },
-  {
-    
     
   },
   {
-    name: "",
-   
+    name:"IBM SkillsBuild Project-Based Learning Program",
+    description:" A 4-week project-based certification program focused on front-end web development. Built websites using HTML, CSS, JavaScript, and GitHub while collaborating in a team-based environment."
+  },
+  {
+    name:"DMRC Internship ",
+   description:"The DMRC (Delhi Metro Rail Corporation) Web Development Internship is a 2‑month immersive program within the IT department of one of India's most prestigious public transport organizations.In just a few months, you'll contribute meaningfully to DMRC’s digital systems, enhance your coding and problem-solving abilities, and experience professional workflows in a high-impact environment."
   },
 ];
 
@@ -225,6 +226,11 @@ const socialImgs = [
     url:"https://www.linkedin.com/in/ayushdhakre/",
     imgPath: "/images/linkedin.png",
   },
+  // {
+  //   name:"gmail",
+  //   url:"dhakreayush578@gmail.com",
+  //   imgPath:"images/mail.png"
+  // }
 ];
 
 export {
