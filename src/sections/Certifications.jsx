@@ -26,9 +26,8 @@ const Certifications = () => {
                   )}
                    {/* 👇 Only show for "My Resume" */}
       {certification.name === "My Resume" && certification.link && (
-  <a
-    href="/Resume.pdf"
-    download="Ayush_Dhakre_Resume.pdf"
+ <Link
+    to="/resume"
     className="inline-flex items-center gap-2 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700 transition w-fit mt-4"
   >
     <svg
@@ -46,9 +45,9 @@ const Certifications = () => {
       />
     </svg>
     Download Resume
-     </a>
-     )}
-              </div>
+  </Link>
+)}
+                </div>
               </div>
             </GlowCard>
           ))}

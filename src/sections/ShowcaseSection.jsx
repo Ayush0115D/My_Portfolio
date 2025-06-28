@@ -53,7 +53,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={interviewRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project.jpg" alt="Interview Website" />
+              <img src="/images/ai_project.jpg" alt="Interview Website" />
             </div>
             <div className="text-content">
               <h2>
