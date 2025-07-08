@@ -11,28 +11,28 @@ import Navbar from "./components/NavBar";
 import Certifications from './sections/Certifications';
 import DownloadResume from './sections/DownloadResume';
 
-  
-  
+
+
 const App = () => (
-  
+
   <BrowserRouter>
-      <Routes>
-        <Route path="/" element={
+    <Routes>
+      <Route path="/" element={
         <>
-    <Navbar />
-    <Hero />
-    <ShowcaseSection />
-    <LogoShowcase />
-    <FeatureCards />
-    <Experience />
-    <TechStack />
-    <Certifications />
-    <Contact />
-    <Footer />
+          <Navbar />
+          <Hero />
+          <ShowcaseSection />
+          <LogoShowcase />
+          <FeatureCards />
+          <Experience />
+          <TechStack />
+          <Certifications />
+          <Contact />
+          <Footer />
         </>
- } />
-        <Route path="/resume" element={<DownloadResume />} />
-      </Routes>
-    </BrowserRouter>
-  );
+      } />
+      <Route path="/resume" element={<DownloadResume />} />
+    </Routes>
+  </BrowserRouter>
+);
 export default App;

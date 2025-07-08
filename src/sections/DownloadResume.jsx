@@ -2,15 +2,11 @@ import { useEffect } from 'react';
 
 const DownloadResume = () => {
   useEffect(() => {
-    const link = document.createElement("a");
-    link.href = "/Resume.pdf"; // file must be in /public
-    link.download = "Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Open the PDF in a new tab
+    window.open("/Resume.pdf", "_blank");
   }, []);
 
-  return <p className="text-white text-center mt-10">Downloading resume...</p>;
+  return <p className="text-white text-center mt-10">Opening resume in new tab...</p>;
 };
 
 export default DownloadResume;
