@@ -2,6 +2,7 @@ import { certifications } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
 import { Link } from 'react-router-dom';
+
 const Certifications = () => {
   return (
     <section id="certifications" className="flex-center section-padding">
@@ -29,7 +30,7 @@ const Certifications = () => {
                       <p className="text-white-50">{certification.description}</p>
                     )}
                     {isResume && (
-                      <span className="inline-flex items-center gap-2 cursor-pointer bg-blue-900 text-white px-4 py-2 rounded w-fit mt-4">
+                      <span className="inline-flex items-center gap-2 bg-blue-900 text-white px-4 py-2 rounded w-fit mt-4">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -52,21 +53,22 @@ const Certifications = () => {
               </GlowCard>
             );
 
-            // Wrap in Link only if it's the Resume card
+            // Use <a> to open PDF in new tab; <Link> for other cards
             return isResume ? (
-              <Link
-                to="/resume"
+              <a
+                href="/Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 key={index}
                 className="block w-full hover:no-underline"
               >
                 {cardContent}
-              </Link>
+              </a>
             ) : (
               cardContent
             );
           })}
         </div>
-
       </div>
     </section>
   );

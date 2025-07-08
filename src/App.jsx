@@ -31,7 +31,7 @@ const App = () => (
           <Footer />
         </>
       } />
-      <Route path="/resume" element={<DownloadResume />} />
+      {/* <Route path="/resume" element={<DownloadResume />} /> */}
     </Routes>
   </BrowserRouter>
 );
