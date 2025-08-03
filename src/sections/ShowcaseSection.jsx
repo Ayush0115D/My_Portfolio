@@ -7,6 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 const AppShowcase = () => {
   const sectionRef = useRef(null);
   const interviewRef = useRef(null);
+  const dmrcRef = useRef(null); // 
 
 
   useGSAP(() => {
@@ -18,7 +19,7 @@ const AppShowcase = () => {
     );
 
     // Animations for each app showcase
-    const cards = [interviewRef.current];
+    const cards = [interviewRef.current,dmrcRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -59,30 +60,29 @@ const AppShowcase = () => {
               <h2>
                 A interview website with ai voice agent using node.js
               </h2>
-              <p className="text-cyan-50 md:text-xl">
-                
+              <p className="text-cyan-50 md:text-xl">               
               </p>
             </div>
           </div>
 
-          {/* <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
+          <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={dmrcRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
+                  src="/images/DMRC.jpg"
+                  alt="Lost&Found Portal"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Lost&Found Portal of Delhi Metro</h2>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
+            {/* <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
               <h2>YC Directory - A Startup Showcase App</h2>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
         </div>
       </div>
     </div>
