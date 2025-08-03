@@ -7,27 +7,20 @@ gsap.registerPlugin(ScrollTrigger);
 const AppShowcase = () => {
   const sectionRef = useRef(null);
   const interviewRef = useRef(null);
-  const dmrcRef = useRef(null); // 
-
+  const dmrcRef = useRef(null);
 
   useGSAP(() => {
-    // Animation for the main section
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
       { opacity: 1, duration: 1.5 }
     );
 
-    // Animations for each app showcase
-    const cards = [interviewRef.current,dmrcRef.current];
-
+    const cards = [interviewRef.current, dmrcRef.current];
     cards.forEach((card, index) => {
       gsap.fromTo(
         card,
-        {
-          y: 50,
-          opacity: 0,
-        },
+        { y: 50, opacity: 0 },
         {
           y: 0,
           opacity: 1,
@@ -43,45 +36,50 @@ const AppShowcase = () => {
   }, []);
 
   return (
-    
-    <div id="work" ref={sectionRef} className="app-showcase">
-      <div className="w-full flex-col items-center">
-  {/* Title above the card */}
-  <p className="mb-4  text-cyan-50 text-lg font-semibold font-serif ">MY PROJECT</p>
+    <div id="work" ref={sectionRef} className="app-showcase py-12 px-4 md:px-8">
+      <div className="w-full flex flex-col items-center">
+        {/* Title */}
+        <p className="mb-8 text-cyan-50 text-xl font-semibold font-serif">
+          MY PROJECT
+        </p>
 
-  {/* Project Card */}
-  <div className="w-full max-w-xl"></div>
-        <div className="showcaselayout">
-          <div ref={interviewRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/ai_project.jpg" alt="Interview Website" />
+        <div className="showcaselayout grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl w-full">
+          {/* Project 1 */}
+          <div
+            ref={interviewRef}
+            className="bg-[#1a1a1a] rounded-2xl overflow-hidden shadow-lg"
+          >
+            <div className="image-wrapper h-[300px] overflow-hidden">
+              <img
+                src="/images/ai_project.jpg"
+                alt="Interview Website"
+                className="h-full w-full object-cover"
+              />
             </div>
-            <div className="text-content">
-              <h2>
-                A interview website with ai voice agent using node.js
+            <div className="text-content p-4">
+              <h2 className="text-white text-lg font-bold">
+                A interview website with AI voice agent using Node.js
               </h2>
-              <p className="text-cyan-50 md:text-xl">               
-              </p>
             </div>
           </div>
 
-          <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={dmrcRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/DMRC.jpg"
-                  alt="Lost&Found Portal"
-                />
-              </div>
-              <h2>Lost&Found Portal of Delhi Metro</h2>
+          {/* Project 2 */}
+          <div
+            className="project bg-[#FFEFDB] rounded-2xl overflow-hidden shadow-lg"
+            ref={dmrcRef}
+          >
+            <div className="image-wrapper h-[300px] overflow-hidden">
+              <img
+                src="/images/DMRC.jpg"
+                alt="Lost&Found Portal"
+                className="h-full w-full object-cover"
+              />
             </div>
-
-            {/* <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
-              </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
-            </div> */}
+            <div className="p-4">
+              <h2 className="text-black text-lg font-bold">
+                Lost&Found Portal of Delhi Metro
+              </h2>
+            </div>
           </div>
         </div>
       </div>
