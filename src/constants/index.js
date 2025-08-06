@@ -30,7 +30,7 @@ const words = [
 
 const counterItems = [
   { value: 1, suffix: "+", label: "Years of Experience" },
-  { value: 5, suffix: "+", label: "Completed Projects" },
+  { value: 7, suffix: "+", label: "Completed Projects" },
   { value: 50, suffix: "+", label: "Questions solved" },
   { value: 4, suffix: "+", label: "Certifications" },
 
@@ -130,39 +130,41 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Developed a interview platform where u can practice for interviews with the help of vapi real ai voice agent.With the help of Node.js and Tailwind CSS, i build a responsive and optimized website,along with firebase as a database",
+    review: "Developed an interview practice platform featuring a real AI voice agent powered by Vapi. Built a responsive and optimized website using Node.js and Tailwind CSS, with Firebase integrated for real-time data management.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/web.svg",
     title: "Web Developer",
     date: "Jan 2025 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the website.",
-      "Build a interview website with ai voice agent using nodejs",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built and maintained user-facing features with focus on speed and scalability.",
+      "Developed an interview website with AI voice agent using Next.js.",
+      "Created a Lost & Found portal for Delhi Metro Rail Corporation (DMRC)",
+      "Proficient in Git/GitHub and follow best practices for seamless user experiences..",
     ],
   },
   {
-    review: "Solved different questions on core java and dsa for enhancing problem solving skills.",
+    review: "Solved a variety of Core Java and DSA problems to strengthen algorithmic thinking and enhance problem-solving skills.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/Java.png",
     title: "JAVA Developer",
     date: "October 2023 - Present",
     responsibilities: [
-      "A dedicated coder with strong proficiency in Java and in Data Structures and Algorithms (DSA). I have wide range of knowledge on core data structures such as arrays, linked lists, stacks, queues, trees, and hashmaps. I am well-aware about algorithmic techniques including recursion,backtracking, sorting, searching .",
-      " My Java skills also include understanding of object-oriented programming (OOP), collections framework, and exception handling",
+      "A dedicated coder with strong proficiency in Java and in Data Structures and Algorithms (DSA).",
+      " I have wide range of knowledge on core data structures such as arrays, linked lists, stacks, queues, trees, and hashmaps. I am well-aware about algorithmic techniques including recursion,backtracking, sorting, searching.",
+      " My Java skills also include understanding of object-oriented programming (OOP), collections framework, and exception handling.",
     ],
   },
   {
-    review: "Made a optimized and responsive porflio website with the help of React and Tailwind CSS.With the help of three.js i have made 3d models for my website and For better animations i used GSAP too look website more attractive and responsive",
+    review: "Built an optimized and responsive portfolio website using React and Tailwind CSS. Integrated 3D models with Three.js and enhanced visual appeal with smooth animations using GSAP.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/react.png",
     title: "Frontend Developer",
     date: " November 2023- Present",
     responsibilities: [
-      "I have hands-on experience with core web technologies including HTML5, CSS3, and JavaScript, and I actively work with modern libraries and frameworks such as React.js and Tailwind CSS to develop dynamic and visually appealing applications.",
-      "My skill set includes creating reusable components, managing state, handling APIs, and implementing responsive design for cross-device compatibility. I am familiar with version control using Git & GitHub, and I follow best practices in UI/UX to deliver seamless user experiences",
-
-      "Build a portfolio website with the help of react and use of GSAP for better animations,UI and for optimal performance.Its engine is designed to work more effciently than others. ",
+      "I have hands-on experience with core web technologies including HTML5, CSS3, and JavaScript, work with modern libraries and frameworks such as React.js and Tailwind CSS .",
+      "My skill set includes creating reusable components, managing state, handling APIs, and implementing responsive design for cross-device compatibility." ,
+      "Build a Currency Converter which fetches real-time exchange rates using an API to convert between different currencies. ",
+      "Build a ToDoApp with Redux Toolkit and Games like TicTacToe and Stone,Paper and Scissors etc. ",
     ],
   },
 ];

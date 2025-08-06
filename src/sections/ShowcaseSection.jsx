@@ -40,7 +40,7 @@ const AppShowcase = () => {
       <div className="w-full flex flex-col items-center">
         {/* Title */}
         <p className="mb-8 text-cyan-50 text-xl font-semibold font-serif">
-          MY PROJECT
+          MY PROJECTS
         </p>
 
         <div className="showcaselayout grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl w-full">
