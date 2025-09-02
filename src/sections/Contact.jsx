@@ -20,28 +20,30 @@ const Toast = ({ type, text, onClose }) => {
     return () => clearInterval(interval);
   }, [progress, onClose]);
 
+  // ✅ Toast colors
+  const bgColor =
+    type === "success" ? "bg-green-50 border-green-400" : "bg-red-50 border-red-400";
+  const iconBg = type === "success" ? "bg-green-500" : "bg-red-500";
+  const textColor = type === "success" ? "text-green-700" : "text-red-700";
+  const barColor = type === "success" ? "bg-green-500" : "bg-red-500";
+
   return (
     <div
-      className={`fixed top-5 right-5 z-[9999] w-80 p-4 rounded-lg shadow-lg flex items-start gap-3 border
-        animate-slideIn
-        ${type === "success" ? "bg-white border-green-400" : "bg-white border-red-400"}`}
+      className={`fixed top-5 right-5 z-[9999] w-80 p-4 rounded-lg shadow-lg flex items-start gap-3 border animate-slideIn ${bgColor}`}
     >
       {/* Icon */}
       <div
-        className={`flex-shrink-0 mt-1 w-6 h-6 rounded-full flex items-center justify-center 
-        ${type === "success" ? "bg-green-500" : "bg-red-500"} text-white`}
+        className={`flex-shrink-0 mt-1 w-7 h-7 rounded-full flex items-center justify-center ${iconBg} text-white font-bold`}
       >
         {type === "success" ? "✓" : "⚠"}
       </div>
 
       {/* Content */}
       <div className="flex-1">
-        <p className="text-gray-800 font-medium">{text}</p>
+        <p className={`font-medium ${textColor}`}>{text}</p>
         <div className="mt-2 w-full h-1 bg-gray-200 rounded">
           <div
-            className={`h-1 rounded ${
-              type === "success" ? "bg-green-500" : "bg-red-500"
-            }`}
+            className={`h-1 rounded ${barColor}`}
             style={{ width: `${progress}%`, transition: "width 0.1s linear" }}
           />
         </div>
@@ -49,7 +51,7 @@ const Toast = ({ type, text, onClose }) => {
 
       {/* Close Button */}
       <button
-        className="ml-2 text-gray-500 hover:text-gray-800"
+        className="ml-2 text-gray-400 hover:text-gray-700"
         onClick={onClose}
       >
         ✕
@@ -87,10 +89,10 @@ const Contact = () => {
       );
 
       setForm({ name: "", email: "", message: "" });
-      setToast({ type: "success", text: "✅ Email sent successfully!" });
+      setToast({ type: "success", text: "Email sent successfully!" });
     } catch (error) {
       console.error("EmailJS Error:", error);
-      setToast({ type: "error", text: "❌ Failed to send email. Please try again." });
+      setToast({ type: "error", text: "Failed to send email. Please try again." });
     } finally {
       setLoading(false);
     }

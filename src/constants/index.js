@@ -70,6 +70,18 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/Java.png",
   },
+  {
+    imgPath: "/images/logos/express-js.svg",
+  },
+  {
+    imgPath: "/images/logos/Postman.png",
+  },
+  {
+    imgPath: "/images/logos/MongoDB.png",
+  },
+  {
+    imgPath: "/images/logos/next.js.svg",
+  },
 ];
 
 const abilities = [
