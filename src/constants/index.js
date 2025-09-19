@@ -149,7 +149,7 @@ const expCards = [
     date: "Jan 2025 - Present",
     responsibilities: [
       "Built and maintained user-facing features with focus on speed and scalability.",
-      "Developed an interview website with AI voice agent using Next.js.",
+      "Built a platform to help users track their mental health, featuring secure JWT authentication and a responsive interface",
       "Created a Lost & Found portal for Delhi Metro Rail Corporation (DMRC)",
       "Proficient in Git/GitHub and follow best practices for seamless user experiences..",
     ],
@@ -167,7 +167,7 @@ const expCards = [
     ],
   },
   {
-    review: "Built an optimized and responsive portfolio website using React and Tailwind CSS. Integrated 3D models with Three.js and enhanced visual appeal with smooth animations using GSAP.",
+    review: "The SPS Game Web App is a Rock-Paper-Scissors game featuring Player vs Player and Player vs Computer modes. It uses interactive UI elements, real-time score tracking, and a leaderboard to enhance gameplay, built with modern front-end web technologies for responsive, cross-device play.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/react.png",
     title: "Frontend Developer",
