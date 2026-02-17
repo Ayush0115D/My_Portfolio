@@ -141,19 +141,21 @@ const techStackIcons = [
 ];
 
 const expCards = [
-  {
-    review: "Developed an interview practice platform featuring a real AI voice agent powered by Vapi. Built a responsive and optimized website using Node.js and Tailwind CSS, with Firebase integrated for real-time data management.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/web.svg",
-    title: "Web Developer",
-    date: "Jan 2025 - Present",
-    responsibilities: [
-      "Built and maintained user-facing features with focus on speed and scalability.",
-      "Built a platform to help users track their mental health, featuring secure JWT authentication and a responsive interface",
-      "Created a Lost & Found portal for Delhi Metro Rail Corporation (DMRC)",
-      "Proficient in Git/GitHub and follow best practices for seamless user experiences..",
-    ],
-  },
+ {
+review:"Built a strong foundation in modern web development through structured learning from multiple professional resources and hands-on project implementation. Developed and deployed full-stack applications focusing on scalability, performance, and clean architecture.",
+imgPath:"/images/exp1.png",
+logoPath:"/images/web.svg",
+title:"Full Stack Developer",
+date:"Jan 2025 - Present",
+responsibilities:[
+"Developed and maintained full-stack web applications using React, Node.js, Express, and MongoDB/Firebase.",
+"Implemented secure authentication and authorization using JWT and role-based access control.",
+"Designed and built RESTful APIs with proper validation, error handling, and database optimization.",
+"Built responsive and accessible user interfaces using Tailwind CSS with performance-focused design.",
+"Deployed applications and managed version control workflows using Git and GitHub."
+]
+},
+
   {
     review: "Solved a variety of Core Java and DSA problems to strengthen algorithmic thinking and enhance problem-solving skills.",
     imgPath: "/images/exp2.png",
@@ -166,19 +168,20 @@ const expCards = [
       " My Java skills also include understanding of object-oriented programming (OOP), collections framework, and exception handling.",
     ],
   },
-  {
-    review: "The SPS Game Web App is a Rock-Paper-Scissors game featuring Player vs Player and Player vs Computer modes. It uses interactive UI elements, real-time score tracking, and a leaderboard to enhance gameplay, built with modern front-end web technologies for responsive, cross-device play.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/react.png",
-    title: "Frontend Developer",
-    date: " November 2023- Present",
-    responsibilities: [
-      "I have hands-on experience with core web technologies including HTML5, CSS3, and JavaScript, work with modern libraries and frameworks such as React.js and Tailwind CSS .",
-      "My skill set includes creating reusable components, managing state, handling APIs, and implementing responsive design for cross-device compatibility." ,
-      "Build a Currency Converter which fetches real-time exchange rates using an API to convert between different currencies. ",
-      "Build a ToDoApp with Redux Toolkit and Games like TicTacToe and Stone,Paper and Scissors etc. ",
-    ],
-  },
+{
+review:"Completed an in-depth Generative AI program of Piyush Garg, building production-grade AI applications using OpenAI APIs, OpenAI SDK, LangChain, LangGraph, MCP (Model Context Protocol), and vector databases using Python.",
+imgPath:"/images/exp3.png",
+logoPath:"/images/logos/openai.jpg",
+title:"Gen AI Developer",
+date:"November 2023 - Present",
+responsibilities:[
+"Built AI-powered applications using OpenAI GPT models and embedding APIs with Python.",
+"Implemented Retrieval-Augmented Generation (RAG) pipelines using LangChain and vector databases (Qdrant).",
+"Developed AI agents with tool usage, memory handling, and multi-step reasoning workflows.",
+"Designed scalable backend APIs using FastAPI for intelligent AI-driven systems.",
+"Optimized prompts and semantic search strategies to improve accuracy and contextual relevance."
+]
+},
 ];
 
 const expLogos = [
@@ -197,14 +200,13 @@ const expLogos = [
 ];
 
 const certifications = [
-  {
-    name: "Introduction to Cyber Security",
-    description:"This course by Infosys Springboard introduces learners to core machine learning concepts using Python. It covers data preprocessing, visualization, and model building using libraries like Pandas, Matplotlib, and scikit-learn. The course includes hands-on projects and a capstone to apply skills in real-world scenarios, making it ideal for beginners with basic Python knowledge."
-   
-  },
+{
+name:"Full Stack Generative and Agentic AI with Python",
+description:"This certification program covers end-to-end development of Generative AI and Agentic AI applications using Python. It includes building applications with OpenAI APIs, implementing RAG, designing AI agents with tool usage and memory, and working with frameworks like LangChain and LangGraph. It also includes working with MCP (Model Context Protocol), vector databases, prompt engineering, backend integration, and deploying production-ready AI systems."
+},
   {
     name: "Fundamentals of machine learning with scikit-learn ",
-    description:"The Fundamentals of Cyber Security course by Infosys Springboard teaches the basics of protecting digital information It explains key ideas like keeping data safe secure and accurate It covers common cyber threats how to defend networks and how encryption works It is a beginner friendly course for anyone interested in learning about online safety and digital security"
+    description:"This course introduces the core concepts of machine learning using scikit-learn. It covers essential topics such as data preprocessing, model building, evaluation techniques, and basic algorithms. Designed for beginners, it provides hands-on experience to help learners understand how to build and apply machine learning models effectively."
   },
   {
     name: "Fundamentals of Web Development",
