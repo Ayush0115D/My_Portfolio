@@ -81,8 +81,19 @@ const logoIconsList = [
   },
   {
     imgPath: "/images/logos/next.js.svg",
+  },{
+   imgPath: "/images/logos/open-ai.svg",
   },
-];
+  {
+    imgPath: "/images/logos/python.svg",
+  },
+  {
+    imgPath: "/images/logos/mcplogo.png",
+  },
+  {
+    imgPath: "/images/logos/aws.svg",
+  }
+  ];
 
 const abilities = [
   {
