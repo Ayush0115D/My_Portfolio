@@ -138,13 +138,13 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Web Developer",
+    name: "Full-Stack Developer",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Java Developer",
+    name: "Gen AI Developer",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
@@ -182,9 +182,9 @@ responsibilities:[
 {
 review:"Completed an in-depth Generative AI program of Piyush Garg, building production-grade AI applications using OpenAI APIs, OpenAI SDK, LangChain, LangGraph, MCP (Model Context Protocol), and vector databases using Python.",
 imgPath:"/images/exp3.png",
-logoPath:"/images/logos/openai.jpg",
+logoPath:"/images/openai.jpg",
 title:"Gen AI Developer",
-date:"November 2023 - Present",
+date:"November 2025 - Present",
 responsibilities:[
 "Built AI-powered applications using OpenAI GPT models and embedding APIs with Python.",
 "Implemented Retrieval-Augmented Generation (RAG) pipelines using LangChain and vector databases (Qdrant).",
@@ -213,16 +213,19 @@ const expLogos = [
 const certifications = [
 {
 name:"Full Stack Generative and Agentic AI with Python",
-description:"This certification program covers end-to-end development of Generative AI and Agentic AI applications using Python. It includes building applications with OpenAI APIs, implementing RAG, designing AI agents with tool usage and memory, and working with frameworks like LangChain and LangGraph. It also includes working with MCP (Model Context Protocol), vector databases, prompt engineering, backend integration, and deploying production-ready AI systems."
+description:"This certification program covers end-to-end development of Generative AI and Agentic AI applications using Python. It includes building applications with OpenAI APIs, implementing RAG, designing AI agents with tool usage and memory, and working with frameworks like LangChain and LangGraph. It also includes working with MCP (Model Context Protocol), vector databases, prompt engineering, backend integration, and deploying production-ready AI systems.",
+link:"https://www.udemy.com/certificate/UC-592b589b-0fa4-4541-a4fc-8738d73d4708"
 },
   {
     name: "Fundamentals of machine learning with scikit-learn ",
-    description:"This course introduces the core concepts of machine learning using scikit-learn. It covers essential topics such as data preprocessing, model building, evaluation techniques, and basic algorithms. Designed for beginners, it provides hands-on experience to help learners understand how to build and apply machine learning models effectively."
+    description:"This course introduces the core concepts of machine learning using scikit-learn. It covers essential topics such as data preprocessing, model building, evaluation techniques, and basic algorithms. Designed for beginners, it provides hands-on experience to help learners understand how to build and apply machine learning models effectively.",
+  link:"https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_013177169428111360132_shared/1-ef2c8cbe-ed0f-4612-81de-24432bc48a61.pdf"
   },
   {
     name: "Fundamentals of Web Development",
-    description:"The Fundamentals of Web Development course by Simplilearn teaches how to build websites using html css and javascript It covers basic web design responsive layouts and simple interactive features It is meant for beginners who want to start creating web pages and applications"
-  },
+    description:"The Fundamentals of Web Development course by Simplilearn teaches how to build websites using html css and javascript It covers basic web design responsive layouts and simple interactive features It is meant for beginners who want to start creating web pages and applications",
+  link:"https://simpli.app.link/bKFAQXnJYWb"
+},
   {
     name: "My Resume",
     link: "/Resume.pdf",
@@ -230,7 +233,8 @@ description:"This certification program covers end-to-end development of Generat
   },
   {
     name:"IBM SkillsBuild Project-Based Learning Program",
-    description:" A 4-week project-based certification program focused on front-end web development. Built websites using HTML, CSS, JavaScript, React and GitHub while collaborating in a team-based environment."
+    description:" A 4-week project-based certification program focused on front-end web development. Built websites using HTML, CSS, JavaScript, React and GitHub while collaborating in a team-based environment.",
+  link:"https://www.credly.com/badges/2274ed76-673b-46ad-a7a7-6fce13e2b817/public_url"
   },
   {
     name:"DMRC Internship ",
