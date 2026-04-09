@@ -228,7 +228,7 @@ link:"https://www.udemy.com/certificate/UC-592b589b-0fa4-4541-a4fc-8738d73d4708"
 },
   {
     name: "My Resume",
-    link: "/Resume.pdf",
+    link: "/Resume-2.pdf",
     
   },
   {
