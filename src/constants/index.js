@@ -212,34 +212,62 @@ const expLogos = [
 
 const certifications = [
 {
-name:"Full Stack Generative and Agentic AI with Python",
-description:"This certification program covers end-to-end development of Generative AI and Agentic AI applications using Python. It includes building applications with OpenAI APIs, implementing RAG, designing AI agents with tool usage and memory, and working with frameworks like LangChain and LangGraph. It also includes working with MCP (Model Context Protocol), vector databases, prompt engineering, backend integration, and deploying production-ready AI systems.",
-link:"https://www.udemy.com/certificate/UC-592b589b-0fa4-4541-a4fc-8738d73d4708"
+  name:"Full Stack Generative and Agentic AI with Python",
+  description:[
+    "End-to-end development of Generative AI and Agentic AI applications using Python",
+    "Building applications with OpenAI APIs and implementing RAG pipelines",
+    "Designing AI agents with tool usage, memory handling, and multi-step reasoning",
+    "Working with LangChain, LangGraph, and MCP (Model Context Protocol)",
+    "Vector databases, prompt engineering, and backend API integration",
+    "Deploying production-ready AI systems",
+  ],
+  link:"https://www.udemy.com/certificate/UC-592b589b-0fa4-4541-a4fc-8738d73d4708"
 },
-  {
-    name: "Fundamentals of machine learning with scikit-learn ",
-    description:"This course introduces the core concepts of machine learning using scikit-learn. It covers essential topics such as data preprocessing, model building, evaluation techniques, and basic algorithms. Designed for beginners, it provides hands-on experience to help learners understand how to build and apply machine learning models effectively.",
+{
+  name: "AWS Certified Cloud Practitioner",
+  description:[
+    "Foundational knowledge of AWS cloud services and core concepts",
+    "Understanding of AWS security, architecture, pricing, and support",
+    "Ability to effectively use AWS services for cloud-based solutions",
+    "Strong foundation in cloud computing and AWS fundamentals",
+  ],
+  link:"https://www.credly.com/badges/8fec29da-90b3-4d7d-b52f-00056b2a6d4a/public_url"
+},
+{
+  name: "DMRC Internship",
+  description: [
+    "Developed a Lost & Found portal for Delhi Metro's 250+ station network, digitizing paper-based workflows",
+    "Managed 600+ monthly lost-item reports with efficient tracking and resolution",
+    "Implemented role-based access (Commuter/Admin) with JWT authentication and OTP verification",
+    "Enabled secure item ownership validation and handover coordination",
+    "Designed and integrated RESTful APIs using React.js, Node.js, Express.js, and MongoDB",
+    "Streamlined photo uploads, station filtering, and claim tracking across the metro network",
+  ],
+},
+{
+  name: "Fundamentals of machine learning with scikit-learn",
+  description:[
+    "Core concepts of machine learning using scikit-learn framework",
+    "Data preprocessing, model building, and evaluation techniques",
+    "Hands-on experience with basic ML algorithms and best practices",
+    "Foundation for building and applying machine learning models effectively",
+  ],
   link:"https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_013177169428111360132_shared/1-ef2c8cbe-ed0f-4612-81de-24432bc48a61.pdf"
-  },
-  {
-    name: "Fundamentals of Web Development",
-    description:"The Fundamentals of Web Development course by Simplilearn teaches how to build websites using html css and javascript It covers basic web design responsive layouts and simple interactive features It is meant for beginners who want to start creating web pages and applications",
-  link:"https://simpli.app.link/bKFAQXnJYWb"
 },
-  {
-    name: "My Resume",
-    link: "/Resume-2.pdf",
-    
-  },
-  {
-    name:"IBM SkillsBuild Project-Based Learning Program",
-    description:" A 4-week project-based certification program focused on front-end web development. Built websites using HTML, CSS, JavaScript, React and GitHub while collaborating in a team-based environment.",
+{
+  name: "My Resume",
+  link: "/Ayush_Resume-1.pdf",
+},
+{
+  name:"IBM SkillsBuild Project-Based Learning Program",
+  description:[
+    "4-week project-based certification focused on front-end web development",
+    "Built websites using HTML, CSS, JavaScript, React, and GitHub",
+    "Developed an expense tracker web application for managing personal finances",
+    "Collaborated in a team-based development environment",
+  ],
   link:"https://www.credly.com/badges/2274ed76-673b-46ad-a7a7-6fce13e2b817/public_url"
-  },
-  {
-    name:"DMRC Internship ",
-   description:"The DMRC (Delhi Metro Rail Corporation) Web Development Internship is a 1‑month immersive program within the IT department of one of India's most prestigious public transport organizations . There I Developed a Lost & Found portal to report and retrieve lost items through a secure online system Enabled item verification and handover by DMRC officials using a structured request and validation workflow.It was built with using ReactJS, TailwindCSS, Express, MongoDB, and JWT authentication."
-  },
+},
 ];
 
 const socialImgs = [
