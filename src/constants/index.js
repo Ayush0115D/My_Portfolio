@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 1, suffix: "+", label: "Years of Experience" },
-  { value: 7, suffix: "+", label: "Completed Projects" },
-  { value: 50, suffix: "+", label: "Questions solved" },
-  { value: 4, suffix: "+", label: "Certifications" },
+  { value: 1.5, suffix: "+", label: "Years of Experience" },
+  { value: 8, suffix: "+", label: "Completed Projects" },
+  { value: 100, suffix: "+", label: "Questions solved" },
+  { value: 5, suffix: "+", label: "Certifications" },
 
 ];
 
@@ -152,47 +152,76 @@ const techStackIcons = [
 ];
 
 const expCards = [
- {
-review:"Built a strong foundation in modern web development through structured learning from multiple professional resources and hands-on project implementation. Developed and deployed full-stack applications focusing on scalability, performance, and clean architecture.",
-imgPath:"/images/exp1.png",
-logoPath:"/images/web.svg",
-title:"Full Stack Developer",
-date:"Jan 2025 - Present",
-responsibilities:[
-"Developed and maintained full-stack web applications using React, Node.js, Express, and MongoDB/Firebase.",
-"Implemented secure authentication and authorization using JWT and role-based access control.",
-"Designed and built RESTful APIs with proper validation, error handling, and database optimization.",
-"Built responsive and accessible user interfaces using Tailwind CSS with performance-focused design.",
-"Deployed applications and managed version control workflows using Git and GitHub."
-]
+{
+  review:
+    "Passionate Full Stack Developer with hands-on experience building scalable web applications using the MERN stack. Focused on designing clean architectures, developing secure backend services, and creating responsive, user-centric interfaces with modern web technologies.",
+
+  imgPath: "/images/exp1.png",
+
+  logoPath: "/images/web.svg",
+
+  title: "Full Stack Developer",
+
+  date: "Jan 2025 - Present",
+
+  responsibilities: [
+    "Built and maintained full-stack web applications using React.js, Next.js, Node.js, Express.js, MongoDB, and Firebase.",
+
+    "Designed and developed secure RESTful APIs with JWT authentication, role-based authorization, input validation, and efficient database architecture.",
+
+    "Created responsive, accessible, and performance-optimized user interfaces using React.js, Tailwind CSS, and modern frontend development practices.",
+
+    "Implemented core backend features including authentication, file uploads, database modeling, CRUD operations, and third-party API integrations.",
+
+    "Deployed and maintained applications while managing source control, collaboration, and CI/CD workflows using Git and GitHub."
+  ]
 },
 
-  {
-    review: "Solved a variety of Core Java and DSA problems to strengthen algorithmic thinking and enhance problem-solving skills.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/Java.png",
-    title: "JAVA Developer",
-    date: "October 2023 - Present",
-    responsibilities: [
-      "A dedicated coder with strong proficiency in Java and in Data Structures and Algorithms (DSA).",
-      " I have wide range of knowledge on core data structures such as arrays, linked lists, stacks, queues, trees, and hashmaps. I am well-aware about algorithmic techniques including recursion,backtracking, sorting, searching.",
-      " My Java skills also include understanding of object-oriented programming (OOP), collections framework, and exception handling.",
-    ],
-  },
 {
-review:"Completed an in-depth Generative AI program of Piyush Garg, building production-grade AI applications using OpenAI APIs, OpenAI SDK, LangChain, LangGraph, MCP (Model Context Protocol), and vector databases using Python.",
-imgPath:"/images/exp3.png",
-logoPath:"/images/openai.jpg",
-title:"Gen AI Developer",
-date:"November 2025 - Present",
-responsibilities:[
-"Built AI-powered applications using OpenAI GPT models and embedding APIs with Python.",
-"Implemented Retrieval-Augmented Generation (RAG) pipelines using LangChain and vector databases (Qdrant).",
-"Developed AI agents with tool usage, memory handling, and multi-step reasoning workflows.",
-"Designed scalable backend APIs using FastAPI for intelligent AI-driven systems.",
-"Optimized prompts and semantic search strategies to improve accuracy and contextual relevance."
-]
+  review:
+    "Have strong foundation in object-oriented programming and Data Structures & Algorithms. Consistently solve coding challenges to strengthen problem-solving skills and write clean, efficient, and maintainable code.",
+
+  imgPath: "/images/exp2.png",
+
+  logoPath: "/images/Java.png",
+
+  title: "Java Developer",
+
+  date: "October 2023 - Present",
+
+  responsibilities: [
+    "Developed a solid foundation in Core Java, object-oriented programming (OOP), Collections Framework, multithreading, and file handling.",
+
+    "Strengthened problem-solving skills by solving numerous Data Structures and Algorithms (DSA) challenges covering arrays, strings, linked lists, and hash maps.",
+
+    "Applied algorithmic techniques including recursion, sorting, searching, and binary search to solve coding problems.",
+    
+  ]
 },
+{
+  review:
+    "Completed an intensive Generative AI program while building production-ready AI applications using LLMs, Retrieval-Augmented Generation (RAG), AI agents, vector databases, and modern orchestration frameworks. Gained hands-on experience developing intelligent systems with Python and the latest GenAI ecosystem.",
+
+  imgPath: "/images/exp3.png",
+
+  logoPath: "/images/openai.jpg",
+
+  title: "Generative AI & AI Engineering",
+
+  date: "November 2025 - Present",
+
+  responsibilities: [
+    "Built AI-powered applications using Gemini, OpenAI-compatible APIs, Python, and modern LLM frameworks for conversational and intelligent workflows.",
+
+    "Implemented Retrieval-Augmented Generation (RAG) pipelines using LangChain, LangGraph, vector embeddings, and Pinecone/Qdrant for semantic search and contextual responses.",
+
+    "Developed AI agents with tool calling, memory management, Model Context Protocol (MCP), and multi-step reasoning workflows.",
+
+    "Designed scalable AI backend services with FastAPI, streaming APIs, prompt engineering, and workflow orchestration for production-ready applications.",
+
+    "Integrated vector databases, embeddings, and LLM inference to build intelligent search, document understanding, and AI assistant solutions."
+  ]
+}
 ];
 
 const expLogos = [
